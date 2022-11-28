@@ -1,0 +1,12 @@
+body {background-color: lightgrey;}
+
+p {
+	margin-left: auto;
+	margin-right: auto;}
+
+h1 {color: darkslategrey;}
+
+input  {
+	border-color: darkblue;
+	border-style: dotted;
+}
