@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<script>
+		var rand= Math.floor((Math.random()*10)+1);
+		var int;
+		
+		int=parseInt(window.prompt("Please enter a integer between 1-10. The game will stop when the user guesses the number right."));
+
+		while(int != rand){
+			alert('the wrong answer Please enter it again!');
+			int=parseInt(window.prompt("Please enter a integer between 1-10. The game will stop when the user guesses the number right."));
+		}
+
+		if(int==rand){
+			alert('the correct answer!');
+		}
+	</script>
+</body>
+</html>
